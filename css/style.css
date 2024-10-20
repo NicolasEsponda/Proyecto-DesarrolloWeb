@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +15,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
     border-radius: 3px;
     background-color: rgba(112, 117, 117, 0.349);
 }
@@ -146,6 +145,62 @@ h2 {
     font-size: 30px;
 }
 
+.nosotros-img{
+    background-image: url(../img/nosotros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+}
+
+.nuestros-clientes{
+    background-image: url(../img/clientes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+h3{
+    text-align: center;
+}
+
+.reseñas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-contacto{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.boton-enviar{
+    background-color: rgb(134, 190, 178);;
+    color: rgb(1, 8, 7);
+    font-size: 30px;
+    border: 1px black;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.div-preguntas{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin: 100px;
+}
+
+.div-detalles-preguntas{
+    margin: 100px;
+}
+
+.div-detalles-preguntas h3{
+    color: rgb(23, 94, 84);
+}
 
 /* FOOTER */
 
@@ -155,7 +210,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
     border-radius: 3px;
 }
 
@@ -242,7 +296,44 @@ footer {
     .lista-footer ul li a {
         font-size: 13px;
     }
-    .parrafo-footer{
+    .parrafo-footer{ 
         font-size: 13px;
+    }
+    .nosotros-img{
+        background-image: url(../img/nosotros.jpg);
+        background-size: contain;
+    }
+    .nuestros-clientes{
+        background-image: url(../img/clientes.jpg);
+        background-size: contain;
+    }
+    .reseñas{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-contacto{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 15px;
+        font-size: 10px;
+    }
+    .boton-enviar{
+        background-color: rgb(134, 190, 178);;
+        color: rgb(1, 8, 7);
+        font-size: 15px;
+        border: 1px black;
+        border-radius: 2px;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .div-preguntas{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin: 40px;
+    }
+    
+    .div-detalles-preguntas{
+        margin: 50px;
     }
 }
